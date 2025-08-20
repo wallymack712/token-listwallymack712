@@ -22,26 +22,15 @@ The token metadata for Metaplex Metadata Schema is in the following format:
 
 ```json
 {
-  "name": "TOKEN_NAME", 
-  "symbol": "TOKEN_SYMBOL",
-  "uri": "TOKEN_URI",
-  "sellerFeeBasisPoints": 0,
-  "creators": null,
-  "collection": null,
-  "uses": null
+  "chainId": 101,
+  "address": "GLH9UMZdVo9AG6rKW6wfU2oB4yipAqVtkpvaSe9Xmoon",
+  "symbol": "WMC",
+  "name": "WallyMackCoin",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/wallymack712/wallymack-token/main/assets/mainnet/GLH9UMZdVo9AG6rKW6wfU2oB4yipAqVtkpvaSe9Xmoon/logo.png",
+  "tags": ["utility-token"]
 }
-```
 
-The `TOKEN_URI` must point to a file with the following format:
-
-```json
-{
-  "name": "TOKEN_NAME",
-  "symbol": "TOKEN_SYMBOL",
-  "description": "TOKEN_DESC",
-  "image": "TOKEN_IMAGE_URL"
-}
-```
 
 Where `TOKEN_IMAGE_URL` is the image url.
 
